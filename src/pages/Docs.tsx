@@ -1,9 +1,14 @@
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import { ArrowRightIcon, GithubIcon } from '../components/icons';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 import './Docs.css';
 
-const guides = ['gettingStarted', 'themes', 'plugins'] as const;
+const guides = [
+  { i18nKey: 'gettingStarted', slug: 'getting-started' },
+  { i18nKey: 'themes', slug: 'themes' },
+  { i18nKey: 'plugins', slug: 'plugins' },
+] as const;
 
 export default function Docs() {
   const { t } = useTranslation();
@@ -23,21 +28,22 @@ export default function Docs() {
 
         {/* Guide cards */}
         <div ref={guidesRef} className={`docs-guides${guidesVisible ? ' visible' : ''}`}>
-          {guides.map((key, i) => {
-            const isComingSoon = key === 'themes' || key === 'plugins';
+          {guides.map(({ i18nKey, slug }, i) => {
+            const isComingSoon = slug === 'themes' || slug === 'plugins';
             return (
-              <div
-                key={key}
+              <Link
+                key={slug}
+                to={`/docs/${slug}`}
                 className={`docs-guide-card${isComingSoon ? ' coming-soon' : ''}`}
                 style={{ transitionDelay: `${i * 100}ms` }}
               >
                 <div className="docs-guide-number">{String(i + 1).padStart(2, '0')}</div>
-                <h3 className="docs-guide-title">{t(`docs.${key}.title`)}</h3>
-                <p className="docs-guide-desc">{t(`docs.${key}.desc`)}</p>
+                <h3 className="docs-guide-title">{t(`docs.${i18nKey}.title`)}</h3>
+                <p className="docs-guide-desc">{t(`docs.${i18nKey}.desc`)}</p>
                 {isComingSoon && (
                   <div className="docs-guide-badge">
                     <div className="docs-guide-badge-dot" />
-                    {t(`docs.${key}.comingSoon`)}
+                    {t(`docs.${i18nKey}.comingSoon`)}
                   </div>
                 )}
                 {!isComingSoon && (
@@ -45,7 +51,7 @@ export default function Docs() {
                     {t('docs.placeholder')}
                   </div>
                 )}
-              </div>
+              </Link>
             );
           })}
         </div>

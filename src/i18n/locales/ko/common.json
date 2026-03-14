@@ -167,6 +167,10 @@
       "comingSoon": "v7 릴리즈 후 상세 가이드 제공 예정."
     },
     "placeholder": "문서 준비 중. 곧 업데이트될 거야.",
+    "nav": {
+      "prev": "이전",
+      "next": "다음"
+    },
     "resources": {
       "github": "소스 코드",
       "githubHint": "GitHub에서 코드 탐색",

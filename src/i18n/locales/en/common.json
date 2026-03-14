@@ -167,6 +167,10 @@
       "comingSoon": "Detailed guide will be available after v7 release."
     },
     "placeholder": "Documentation is being prepared. Updates coming soon.",
+    "nav": {
+      "prev": "Previous",
+      "next": "Next"
+    },
     "resources": {
       "github": "Source Code",
       "githubHint": "Browse code on GitHub",

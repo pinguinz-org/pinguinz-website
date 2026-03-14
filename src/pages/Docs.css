@@ -54,6 +54,15 @@
   margin-bottom: var(--space-16);
 }
 
+a.docs-guide-card {
+  text-decoration: none;
+  color: inherit;
+}
+
+a.docs-guide-card:hover {
+  text-decoration: none;
+}
+
 .docs-guide-card {
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
