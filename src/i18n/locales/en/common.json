@@ -1,0 +1,313 @@
+{
+  "nav": {
+    "home": "Home",
+    "download": "Download",
+    "docs": "Developer Guide",
+    "releases": "Releases",
+    "roadmap": "Roadmap",
+    "about": "About",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "Free messenger, pinguinz",
+    "subtitle": "A free messenger anyone can use.\nBuild communities with servers and channels.",
+    "cta": "Download",
+    "learnMore": "Learn more"
+  },
+  "features": {
+    "overline": "Features",
+    "title": "Why pinguinz?",
+    "desc": "Communicate freely with an open-source messenger. Everything you need, from chat to community.",
+    "chat": {
+      "title": "DM & Group Chat",
+      "desc": "From 1:1 conversations to group chats. Real-time messaging, file sharing, and read receipts."
+    },
+    "workspace": {
+      "title": "Workspaces",
+      "desc": "Create your own community with servers and channels. Role management and invite codes included."
+    },
+    "voice": {
+      "title": "Voice Channels",
+      "desc": "Voice chat directly in workspaces. WebRTC-based P2P for lag-free calls."
+    },
+    "marketplace": {
+      "title": "Marketplace",
+      "desc": "Install plugins, themes, and bots to customize your pinguinz experience."
+    },
+    "openSource": {
+      "title": "Fully Open Source",
+      "desc": "All code is public. Build it yourself, modify it, contribute back."
+    }
+  },
+  "landing": {
+    "stats": {
+      "openSource": { "value": "100%", "label": "Open Source" },
+      "platforms": { "value": "3", "label": "Platforms" },
+      "license": { "value": "MIT", "label": "License" },
+      "privacy": { "value": "0", "label": "Trackers" }
+    },
+    "platforms": {
+      "overline": "Cross-Platform",
+      "title": "Available everywhere",
+      "desc": "One app, every desktop. Download for your platform and start chatting.",
+      "windows": { "name": "Windows", "req": "Windows 10+ (64-bit)" },
+      "macos": { "name": "macOS", "req": "macOS 11 Big Sur+" },
+      "linux": { "name": "Linux", "req": "Ubuntu 20.04, Fedora 36+" }
+    },
+    "values": {
+      "overline": "Our Principles",
+      "title": "Built on trust, not ads",
+      "freedom": {
+        "title": "Freedom",
+        "desc": "Use it, modify it, deploy it. No vendor lock-in, no walled garden."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "desc": "Every line of code is public. See exactly what runs on your machine."
+      },
+      "privacy": {
+        "title": "Privacy",
+        "desc": "No ads, no tracking, no data sales. Your conversations stay yours."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to get started?",
+    "desc": "Download pinguinz now and experience free communication."
+  },
+  "download": {
+    "title": "Download pinguinz",
+    "subtitle": "Get started now.",
+    "version": "Latest version",
+    "windows": "Windows",
+    "macos": "macOS",
+    "linux": "Linux",
+    "downloadFor": "Download for {{os}}",
+    "recommended": "Recommended",
+    "systemRequirements": "System Requirements",
+    "requirements": {
+      "windows": "Windows 10 or later (64-bit)",
+      "macos": "macOS 11 Big Sur or later",
+      "linux": "Ubuntu 20.04, Fedora 36, Debian 11 or later"
+    },
+    "highlights": {
+      "chat": {
+        "title": "Real-time Chat",
+        "desc": "1:1 DM, group chat, file sharing"
+      },
+      "workspace": {
+        "title": "Workspaces",
+        "desc": "Build communities with servers and channels"
+      },
+      "openSource": {
+        "title": "Open Source",
+        "desc": "Full code transparency, modify freely"
+      }
+    },
+    "requirementsTitle": "System Requirements",
+    "stepsOverline": "Getting Started",
+    "steps": {
+      "download": {
+        "title": "Download",
+        "desc": "Choose the installer for your OS and download it."
+      },
+      "install": {
+        "title": "Install",
+        "desc": "Run the installer — no extra setup required."
+      },
+      "start": {
+        "title": "Start Chatting",
+        "desc": "Create an account and start messaging right away."
+      }
+    },
+    "oss": {
+      "title": "Built in the Open",
+      "desc": "pinguinz is fully open-source. Inspect the code, build it yourself, or contribute back.",
+      "stat1Value": "100%",
+      "stat1Label": "Open Source",
+      "stat2Value": "3",
+      "stat2Label": "Platforms",
+      "stat3Value": "MIT",
+      "stat3Label": "License"
+    },
+    "linksTitle": "Related Links",
+    "sourceCode": "Source Code",
+    "changelog": "Release Notes",
+    "changelogHint": "See what changed in each version",
+    "roadmapLabel": "Roadmap",
+    "roadmapHint": "See where pinguinz is headed",
+    "openSourceNotice": "pinguinz is open-source software"
+  },
+  "docs": {
+    "title": "Developer Guide",
+    "subtitle": "Extend pinguinz.",
+    "sidebarGroups": {
+      "guides": "Guides",
+      "resources": "Resources"
+    },
+    "sidebar": {
+      "gettingStarted": "Getting Started",
+      "themes": "Theme Development",
+      "plugins": "Plugin Development"
+    },
+    "gettingStarted": {
+      "title": "Getting Started",
+      "desc": "Create and share themes and plugins on the pinguinz marketplace."
+    },
+    "themes": {
+      "title": "Theme Development Guide",
+      "desc": "Customize the look of pinguinz using the theme.json schema.",
+      "comingSoon": "Detailed guide will be available after v7 release."
+    },
+    "plugins": {
+      "title": "Plugin Development Guide",
+      "desc": "Extend functionality using the plugin.json schema and iframe API.",
+      "comingSoon": "Detailed guide will be available after v7 release."
+    },
+    "placeholder": "Documentation is being prepared. Updates coming soon.",
+    "resources": {
+      "github": "Source Code",
+      "githubHint": "Browse code on GitHub",
+      "api": "API Reference",
+      "apiHint": "REST API documentation",
+      "contributing": "Contributing",
+      "contributingHint": "How to contribute to pinguinz"
+    }
+  },
+  "releases": {
+    "title": "Releases",
+    "subtitle": "See what's new in pinguinz.",
+    "latest": "Latest",
+    "v200": {
+      "h1": "Workspaces — servers and text channels",
+      "h2": "Channel permissions and moderation tools",
+      "h3": "Workspace discovery and invite code system"
+    },
+    "v110": {
+      "h1": "Group chat creation and management",
+      "h2": "Google/GitHub OAuth login",
+      "h3": "Remember Me persistent login"
+    },
+    "v100": {
+      "h1": "1:1 DM real-time chat",
+      "h2": "Friend add, accept, reject, block",
+      "h3": "File sharing and read receipts"
+    }
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "subtitle": "See where pinguinz is headed.",
+    "overline": "Roadmap",
+    "completedTitle": "Completed Milestones",
+    "plannedTitle": "Planned Milestones",
+    "vision": {
+      "title": "From v1 to v5, a complete communication platform",
+      "desc": "Starting with messaging, growing into communities, extension ecosystems, and voice. A free communication platform built together in open source."
+    },
+    "status": {
+      "done": "Done",
+      "current": "In Progress",
+      "planned": "Planned"
+    },
+    "v1": {
+      "title": "Messenger",
+      "desc": "A usable messenger — accounts, friends, 1:1 DM",
+      "f1": "Email signup and verification",
+      "f2": "Friend add/accept/reject/block",
+      "f3": "1:1 DM real-time chat (file sharing, read receipts)"
+    },
+    "v11": {
+      "title": "Messenger+",
+      "desc": "Group chat, OAuth, quality of life improvements",
+      "f1": "Group chat creation and management",
+      "f2": "Google/GitHub OAuth",
+      "f3": "Remember Me"
+    },
+    "v2": {
+      "title": "Community",
+      "desc": "Build communities with servers and text channels",
+      "f1": "Workspace creation, invites, role management",
+      "f2": "Text channels, categories, permission overrides"
+    },
+    "v3": {
+      "title": "Extensions",
+      "desc": "Plugins, themes, and marketplace",
+      "f1": "Plugin system (iframe API)",
+      "f2": "Theme engine (theme.json)",
+      "f3": "Marketplace store"
+    },
+    "v4": {
+      "title": "Smart Communication",
+      "desc": "Polls, pings, calendar integration (official plugins)",
+      "f1": "Poll plugin",
+      "f2": "Smart ping system",
+      "f3": "Calendar integration"
+    },
+    "v5": {
+      "title": "Voice",
+      "desc": "Voice channels and video calls",
+      "f1": "WebRTC-based voice channels",
+      "f2": "P2P video calls"
+    }
+  },
+  "about": {
+    "overline": "About",
+    "title": "Why another messenger?",
+    "desc": "Most messengers are closed. You can't see the code, you don't know where your data goes, and you can't change anything. pinguinz is built differently.",
+    "values": {
+      "freedom": {
+        "title": "Freedom",
+        "desc": "Anyone can use it, anyone can fix it, anyone can deploy it. That's free software."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "desc": "All code is public. See for yourself what's running."
+      },
+      "privacy": {
+        "title": "Privacy",
+        "desc": "Your conversations are yours. No ads, no tracking, no data sales."
+      }
+    },
+    "faqTitle": "FAQ",
+    "faq": {
+      "whyAnother": {
+        "q": "There are so many messengers already. Why build another?",
+        "a": "Most messengers are closed-source and monetize user data. pinguinz is fully open-source, letting anyone verify the code and use it freely."
+      },
+      "openSource": {
+        "q": "What does 'open source' actually mean?",
+        "a": "The entire client and server code is public on GitHub. You can build it yourself, modify it, and deploy it on your own server."
+      },
+      "privacy": {
+        "q": "How do you protect privacy?",
+        "a": "We don't include ads or analytics trackers. We never sell user data to third parties. Self-host and your data stays entirely on your server."
+      },
+      "contribute": {
+        "q": "How can I contribute?",
+        "a": "Open issues on GitHub, send PRs, or create plugins and themes to share. All forms of contribution are welcome."
+      },
+      "platforms": {
+        "q": "Which platforms are supported?",
+        "a": "Currently Windows, macOS, and Linux desktop apps. Mobile and web clients are on the future roadmap."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "A free, open-source messenger",
+    "product": "Product",
+    "community": "Community",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2026 pinguinz. All rights reserved.",
+    "madeWith": "Made on ice"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "dark": "Aurora Night",
+    "light": "Arctic White"
+  },
+  "language": {
+    "toggle": "Toggle language"
+  }
+}

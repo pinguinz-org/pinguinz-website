@@ -1,0 +1,23 @@
+.toggle-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  color: var(--fg-muted);
+  background: transparent;
+  transition: background var(--duration-base) var(--ease-out),
+              color var(--duration-base) var(--ease-out);
+}
+
+.toggle-btn:hover {
+  background: var(--bg-hover);
+  color: var(--fg-base);
+}
+
+.toggle-btn-text {
+  font-size: var(--text-xs);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.02em;
+}

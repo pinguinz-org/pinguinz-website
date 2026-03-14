@@ -1,0 +1,48 @@
+/* Aurora Night — default theme */
+:root,
+[data-theme='dark'] {
+  /* Background */
+  --bg-deep: #0d0f14;
+  --bg-base: #13151a;
+  --bg-surface: #1a1d24;
+  --bg-elevated: #21252f;
+  --bg-overlay: #272b36;
+  --bg-hover: #2d3140;
+
+  /* Border */
+  --border-subtle: #1e2130;
+  --border-default: #252838;
+  --border-strong: #343849;
+
+  /* Foreground */
+  --fg-base: #e2e4ef;
+  --fg-muted: #8b90a8;
+  --fg-subtle: #555b72;
+  --fg-on-accent: #ffffff;
+
+  /* Accent */
+  --accent-9: #7c6df7;
+  --accent-8: #6a5be8;
+  --accent-7: #5849d6;
+  --accent-3: #1e1d3a;
+  --accent-2: #17162e;
+
+  /* Status */
+  --color-success: #4ecdc4;
+  --color-success-subtle: #0d2826;
+  --color-danger: #f07070;
+  --color-danger-subtle: #2a1515;
+  --color-warning: #f0b840;
+  --color-warning-subtle: #261f0a;
+  --color-info: var(--accent-9);
+  --color-info-subtle: #1a1a2e;
+
+  /* Backdrop */
+  --bg-backdrop: rgba(0, 0, 0, 0.55);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.6);
+  --shadow-accent: 0 0 0 3px rgba(124, 109, 247, 0.25);
+}

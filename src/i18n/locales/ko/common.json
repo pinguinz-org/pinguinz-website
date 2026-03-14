@@ -1,0 +1,313 @@
+{
+  "nav": {
+    "home": "홈",
+    "download": "다운로드",
+    "docs": "개발자 가이드",
+    "releases": "릴리스 노트",
+    "roadmap": "로드맵",
+    "about": "소개",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "자유로운 메신저, pinguinz",
+    "subtitle": "누구나 쓸 수 있는 자유로운 메신저.\n원하면 서버와 채널로 커뮤니티까지.",
+    "cta": "다운로드",
+    "learnMore": "더 알아보기"
+  },
+  "features": {
+    "overline": "기능",
+    "title": "왜 pinguinz인가요?",
+    "desc": "오픈 소스 메신저로 자유롭게 소통하세요. 채팅부터 커뮤니티까지, 필요한 모든 것을 갖추고 있습니다.",
+    "chat": {
+      "title": "DM & 그룹 채팅",
+      "desc": "1:1 대화부터 그룹 채팅까지. 실시간 메시지, 파일 공유, 읽음 확인을 지원합니다."
+    },
+    "workspace": {
+      "title": "워크스페이스",
+      "desc": "서버와 채널로 나만의 커뮤니티를 만드세요. 역할 관리와 초대 코드를 지원합니다."
+    },
+    "voice": {
+      "title": "음성 채널",
+      "desc": "워크스페이스에서 바로 음성 대화. WebRTC 기반 P2P로 지연 없는 통화를 경험하세요."
+    },
+    "marketplace": {
+      "title": "마켓플레이스",
+      "desc": "플러그인, 테마, 봇을 설치해 나만의 pinguinz를 꾸며보세요."
+    },
+    "openSource": {
+      "title": "완전한 오픈 소스",
+      "desc": "모든 코드가 공개되어 있습니다. 직접 빌드하고, 수정하고, 기여하세요."
+    }
+  },
+  "landing": {
+    "stats": {
+      "openSource": { "value": "100%", "label": "오픈 소스" },
+      "platforms": { "value": "3", "label": "플랫폼" },
+      "license": { "value": "MIT", "label": "라이선스" },
+      "privacy": { "value": "0", "label": "트래커" }
+    },
+    "platforms": {
+      "overline": "크로스 플랫폼",
+      "title": "어디서나 사용할 수 있습니다",
+      "desc": "하나의 앱, 모든 데스크톱. 지금 다운로드하고 대화를 시작하세요.",
+      "windows": { "name": "Windows", "req": "Windows 10+ (64-bit)" },
+      "macos": { "name": "macOS", "req": "macOS 11 Big Sur+" },
+      "linux": { "name": "Linux", "req": "Ubuntu 20.04, Fedora 36+" }
+    },
+    "values": {
+      "overline": "원칙",
+      "title": "광고가 아닌 신뢰 위에 만들어집니다",
+      "freedom": {
+        "title": "자유",
+        "desc": "쓰고, 수정하고, 배포하세요. 벤더 종속도, 폐쇄적 생태계도 없습니다."
+      },
+      "transparency": {
+        "title": "투명성",
+        "desc": "모든 코드가 공개되어 있습니다. 내 기기에서 무엇이 실행되는지 직접 확인하세요."
+      },
+      "privacy": {
+        "title": "프라이버시",
+        "desc": "광고 없음, 추적 없음, 데이터 판매 없음. 대화는 당신의 것입니다."
+      }
+    }
+  },
+  "cta": {
+    "title": "시작할 준비가 되셨나요?",
+    "desc": "지금 바로 pinguinz를 다운로드하고 자유로운 소통을 경험하세요."
+  },
+  "download": {
+    "title": "pinguinz 다운로드",
+    "subtitle": "지금 바로 시작하세요.",
+    "version": "최신 버전",
+    "windows": "Windows",
+    "macos": "macOS",
+    "linux": "Linux",
+    "downloadFor": "{{os}}용 다운로드",
+    "recommended": "추천",
+    "systemRequirements": "시스템 요구 사항",
+    "requirements": {
+      "windows": "Windows 10 이상 (64-bit)",
+      "macos": "macOS 11 Big Sur 이상",
+      "linux": "Ubuntu 20.04, Fedora 36, Debian 11 이상"
+    },
+    "highlights": {
+      "chat": {
+        "title": "실시간 채팅",
+        "desc": "1:1 DM, 그룹 채팅, 파일 공유"
+      },
+      "workspace": {
+        "title": "워크스페이스",
+        "desc": "서버와 채널로 커뮤니티 구축"
+      },
+      "openSource": {
+        "title": "오픈 소스",
+        "desc": "코드 전체 공개, 자유롭게 수정"
+      }
+    },
+    "requirementsTitle": "시스템 요구 사항",
+    "stepsOverline": "시작하기",
+    "steps": {
+      "download": {
+        "title": "다운로드",
+        "desc": "사용 중인 OS에 맞는 설치 파일을 다운로드하세요."
+      },
+      "install": {
+        "title": "설치",
+        "desc": "설치 파일을 실행하세요. 별도 설정 없이 바로 완료됩니다."
+      },
+      "start": {
+        "title": "대화 시작",
+        "desc": "계정을 만들고 바로 메시지를 주고받으세요."
+      }
+    },
+    "oss": {
+      "title": "오픈 소스로 만들어집니다",
+      "desc": "pinguinz는 완전한 오픈 소스입니다. 코드를 확인하고, 직접 빌드하거나, 기여할 수 있습니다.",
+      "stat1Value": "100%",
+      "stat1Label": "오픈 소스",
+      "stat2Value": "3",
+      "stat2Label": "플랫폼",
+      "stat3Value": "MIT",
+      "stat3Label": "라이선스"
+    },
+    "linksTitle": "관련 링크",
+    "sourceCode": "소스 코드",
+    "changelog": "릴리스 노트",
+    "changelogHint": "각 버전의 변경 사항 확인",
+    "roadmapLabel": "로드맵",
+    "roadmapHint": "pinguinz의 개발 방향 확인",
+    "openSourceNotice": "pinguinz는 오픈 소스 소프트웨어입니다"
+  },
+  "docs": {
+    "title": "개발자 가이드",
+    "subtitle": "pinguinz를 확장하세요.",
+    "sidebarGroups": {
+      "guides": "가이드",
+      "resources": "리소스"
+    },
+    "sidebar": {
+      "gettingStarted": "시작하기",
+      "themes": "테마 개발",
+      "plugins": "플러그인 개발"
+    },
+    "gettingStarted": {
+      "title": "시작하기",
+      "desc": "pinguinz 마켓플레이스에 테마와 플러그인을 만들어 공유할 수 있습니다."
+    },
+    "themes": {
+      "title": "테마 개발 가이드",
+      "desc": "theme.json 스키마를 사용해 pinguinz의 외관을 커스터마이즈하세요.",
+      "comingSoon": "v7 릴리즈 후 상세 가이드가 제공됩니다."
+    },
+    "plugins": {
+      "title": "플러그인 개발 가이드",
+      "desc": "plugin.json 스키마와 iframe API를 사용해 기능을 확장하세요.",
+      "comingSoon": "v7 릴리즈 후 상세 가이드가 제공됩니다."
+    },
+    "placeholder": "문서가 준비 중입니다. 곧 업데이트될 예정이에요.",
+    "resources": {
+      "github": "소스 코드",
+      "githubHint": "GitHub에서 코드 탐색",
+      "api": "API 레퍼런스",
+      "apiHint": "REST API 문서",
+      "contributing": "기여하기",
+      "contributingHint": "pinguinz에 기여하는 방법"
+    }
+  },
+  "releases": {
+    "title": "릴리스 노트",
+    "subtitle": "pinguinz의 변경 사항을 확인하세요.",
+    "latest": "최신",
+    "v200": {
+      "h1": "워크스페이스 — 서버와 텍스트 채널 지원",
+      "h2": "채널 권한 관리 및 모더레이션 도구",
+      "h3": "워크스페이스 검색 및 초대 코드 시스템"
+    },
+    "v110": {
+      "h1": "그룹 채팅 생성 및 관리",
+      "h2": "Google/GitHub OAuth 로그인",
+      "h3": "로그인 상태 유지 (Remember Me)"
+    },
+    "v100": {
+      "h1": "1:1 DM 실시간 채팅",
+      "h2": "친구 추가, 수락, 거절, 차단",
+      "h3": "파일 공유 및 읽음 확인"
+    }
+  },
+  "roadmap": {
+    "title": "로드맵",
+    "subtitle": "pinguinz가 어디로 가고 있는지 확인하세요.",
+    "overline": "로드맵",
+    "completedTitle": "완료된 마일스톤",
+    "plannedTitle": "예정된 마일스톤",
+    "vision": {
+      "title": "v1에서 v5까지, 완전한 커뮤니케이션 플랫폼으로",
+      "desc": "메신저에서 시작해 커뮤니티, 확장 생태계, 음성까지. 오픈 소스로 함께 만들어가는 자유로운 소통 플랫폼."
+    },
+    "status": {
+      "done": "완료",
+      "current": "진행 중",
+      "planned": "예정"
+    },
+    "v1": {
+      "title": "메신저",
+      "desc": "쓸 수 있는 메신저 — 회원, 친구, 1:1 DM",
+      "f1": "이메일 회원가입 및 인증",
+      "f2": "친구 추가/수락/거절/차단",
+      "f3": "1:1 DM 실시간 채팅 (파일 공유, 읽음 확인)"
+    },
+    "v11": {
+      "title": "메신저+",
+      "desc": "그룹 채팅, OAuth, 편의 기능 강화",
+      "f1": "그룹 채팅 생성 및 관리",
+      "f2": "Google/GitHub OAuth",
+      "f3": "Remember Me"
+    },
+    "v2": {
+      "title": "커뮤니티",
+      "desc": "서버와 텍스트 채널로 커뮤니티 구축",
+      "f1": "워크스페이스 생성, 초대, 역할 관리",
+      "f2": "텍스트 채널, 카테고리, 권한 오버라이드"
+    },
+    "v3": {
+      "title": "확장",
+      "desc": "플러그인, 테마, 마켓플레이스",
+      "f1": "플러그인 시스템 (iframe API)",
+      "f2": "테마 엔진 (theme.json)",
+      "f3": "마켓플레이스 스토어"
+    },
+    "v4": {
+      "title": "스마트 소통",
+      "desc": "투표, 핑, 캘린더 연동 (공식 플러그인)",
+      "f1": "투표 플러그인",
+      "f2": "스마트 핑 시스템",
+      "f3": "캘린더 연동"
+    },
+    "v5": {
+      "title": "음성",
+      "desc": "음성 채널과 화상 통화",
+      "f1": "WebRTC 기반 음성 채널",
+      "f2": "P2P 화상 통화"
+    }
+  },
+  "about": {
+    "overline": "소개",
+    "title": "왜 또 메신저인가요?",
+    "desc": "대부분의 메신저는 닫혀 있습니다. 코드를 볼 수 없고, 데이터가 어디로 가는지 모르고, 원하는 대로 바꿀 수 없습니다. pinguinz는 다르게 만들고 있습니다.",
+    "values": {
+      "freedom": {
+        "title": "자유",
+        "desc": "누구나 쓸 수 있고, 누구나 고칠 수 있고, 누구나 배포할 수 있습니다. 그게 자유로운 소프트웨어입니다."
+      },
+      "transparency": {
+        "title": "투명성",
+        "desc": "모든 코드가 공개되어 있습니다. 무엇이 실행되는지 직접 확인하세요."
+      },
+      "privacy": {
+        "title": "프라이버시",
+        "desc": "당신의 대화는 당신의 것입니다. 광고 없음, 추적 없음, 데이터 판매 없음."
+      }
+    },
+    "faqTitle": "자주 묻는 질문",
+    "faq": {
+      "whyAnother": {
+        "q": "이미 메신저가 많은데 왜 또 만드나요?",
+        "a": "대부분의 메신저는 소스가 비공개이고, 사용자 데이터를 수익화합니다. pinguinz는 완전한 오픈 소스로, 누구나 코드를 검증하고 자유롭게 사용할 수 있는 메신저를 만들고 있습니다."
+      },
+      "openSource": {
+        "q": "오픈 소스라는 건 정확히 무슨 뜻인가요?",
+        "a": "클라이언트와 서버 코드 전체가 GitHub에 공개되어 있습니다. 직접 빌드하고, 수정하고, 자체 서버에 배포할 수 있습니다."
+      },
+      "privacy": {
+        "q": "프라이버시는 어떻게 보호하나요?",
+        "a": "광고나 분석 트래커를 넣지 않습니다. 사용자 데이터를 제3자에게 판매하지 않습니다. 셀프호스팅하면 데이터가 완전히 당신의 서버에만 남습니다."
+      },
+      "contribute": {
+        "q": "기여는 어떻게 하나요?",
+        "a": "GitHub에서 이슈를 열거나, PR을 보내거나, 플러그인과 테마를 만들어 공유하세요. 모든 형태의 기여를 환영합니다."
+      },
+      "platforms": {
+        "q": "어떤 플랫폼을 지원하나요?",
+        "a": "현재 Windows, macOS, Linux 데스크톱 앱을 지원합니다. 모바일과 웹 클라이언트는 향후 로드맵에 포함되어 있습니다."
+      }
+    }
+  },
+  "footer": {
+    "tagline": "자유로운 오픈 소스 메신저",
+    "product": "제품",
+    "community": "커뮤니티",
+    "legal": "법적 고지",
+    "privacy": "개인정보 처리방침",
+    "terms": "서비스 이용약관",
+    "copyright": "© 2026 pinguinz. All rights reserved.",
+    "madeWith": "빙판 위에서 만들었어요"
+  },
+  "theme": {
+    "toggle": "테마 전환",
+    "dark": "Aurora Night",
+    "light": "Arctic White"
+  },
+  "language": {
+    "toggle": "언어 전환"
+  }
+}
