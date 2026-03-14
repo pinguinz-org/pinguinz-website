@@ -9,10 +9,12 @@
     "github": "GitHub"
   },
   "hero": {
-    "title": "Free messenger, pinguinz",
+    "badge": "Open-source, on the ice",
+    "title": "Talk freely. pinguinz.",
     "subtitle": "A free messenger anyone can use.\nBuild communities with servers and channels.",
     "cta": "Download",
-    "learnMore": "Learn more"
+    "learnMore": "Learn more",
+    "ctaHint": "Send your first ping"
   },
   "features": {
     "overline": "Features",
@@ -43,7 +45,7 @@
     "stats": {
       "openSource": { "value": "100%", "label": "Open Source" },
       "platforms": { "value": "3", "label": "Platforms" },
-      "license": { "value": "MIT", "label": "License" },
+      "license": { "value": "OSS", "label": "License" },
       "privacy": { "value": "0", "label": "Trackers" }
     },
     "platforms": {
@@ -72,8 +74,8 @@
     }
   },
   "cta": {
-    "title": "Ready to get started?",
-    "desc": "Download pinguinz now and experience free communication."
+    "title": "Ready to jump on the ice?",
+    "desc": "Download pinguinz and talk freely."
   },
   "download": {
     "title": "Download pinguinz",
@@ -117,7 +119,7 @@
       },
       "start": {
         "title": "Start Chatting",
-        "desc": "Create an account and start messaging right away."
+        "desc": "Create an account and send your first ping."
       }
     },
     "oss": {
@@ -127,7 +129,7 @@
       "stat1Label": "Open Source",
       "stat2Value": "3",
       "stat2Label": "Platforms",
-      "stat3Value": "MIT",
+      "stat3Value": "OSS",
       "stat3Label": "License"
     },
     "linksTitle": "Related Links",

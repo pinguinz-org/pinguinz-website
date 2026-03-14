@@ -54,7 +54,7 @@ export default function Landing() {
         <div className="hero-glow" />
         <div className="hero-grid" />
         <div className="hero-inner">
-          <div className="hero-badge">Open Platform Messenger</div>
+          <div className="hero-badge">{t('hero.badge')}</div>
           <h1 className="hero-title">
             <span className="hero-title-gradient">{t('hero.title')}</span>
           </h1>
@@ -68,6 +68,7 @@ export default function Landing() {
               {t('hero.learnMore')}
             </a>
           </div>
+          <p className="hero-hint">{t('hero.ctaHint')}</p>
         </div>
       </section>
 
