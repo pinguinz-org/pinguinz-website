@@ -19,7 +19,7 @@
   "features": {
     "overline": "Features",
     "title": "Why pinguinz?",
-    "desc": "Communicate freely with an open-source messenger. Everything you need, from chat to community.",
+    "desc": "Communicate freely with an open-source messenger. Everything you need, from 1:1 DM to workspaces.",
     "chat": {
       "title": "DM & Group Chat",
       "desc": "From 1:1 conversations to group chats. Real-time messaging, file sharing, and read receipts."
@@ -154,7 +154,7 @@
     },
     "gettingStarted": {
       "title": "Getting Started",
-      "desc": "Create and share themes and plugins on the pinguinz marketplace."
+      "desc": "Learn how to build pinguinz and contribute to the project."
     },
     "themes": {
       "title": "Theme Development Guide",

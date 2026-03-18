@@ -107,17 +107,7 @@ export default function Landing() {
               <p className="bento-desc">{t('features.workspace.desc')}</p>
             </BentoCard>
 
-            <BentoCard delay={160}>
-              <h3 className="bento-title">{t('features.voice.title')}</h3>
-              <p className="bento-desc">{t('features.voice.desc')}</p>
-            </BentoCard>
-
-            <BentoCard delay={240}>
-              <h3 className="bento-title">{t('features.marketplace.title')}</h3>
-              <p className="bento-desc">{t('features.marketplace.desc')}</p>
-            </BentoCard>
-
-            <BentoCard className="bento-span-full bento-oss" delay={320}>
+            <BentoCard className="bento-span-full bento-oss" delay={160}>
               <div className="bento-oss-content">
                 <h3 className="bento-title">{t('features.openSource.title')}</h3>
                 <p className="bento-desc">{t('features.openSource.desc')}</p>
